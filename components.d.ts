@@ -8,10 +8,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     CustomerLayout: typeof import('./src/components/layouts/CustomerLayout.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SaaSLayout: typeof import('./src/components/layouts/SaaSLayout.vue')['default']
-    SubdomainComponent: typeof import('./src/components/SubdomainComponent.vue')['default']
   }
 }
